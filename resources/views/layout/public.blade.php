@@ -13,6 +13,8 @@
 </head>
 <body>
     
+
+    {{-- ATTENZIONE SE CI SONO PROBLEMI NELLA VISIONE DELLE CARD E' PERCHE' HO CREATO UNA COLONNA PER INSERIRE LE IMAGINI DELLE CARD --}}
     @yield('homeContent')
     
     

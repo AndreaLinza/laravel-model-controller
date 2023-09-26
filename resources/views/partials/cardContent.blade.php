@@ -2,8 +2,8 @@
     <div class="col">
         <div class="card">
             <img src="{{ $movie->img }}" class="card-img-top" alt="...">
-            <div class="hover text-center d-flex flex-column justify-content-around">
-                <h2 class="mt-5">{{ $movie->original_title }}</h2>
+            <div class="hover text-center">
+                <h2 class="mt-4">{{ $movie->original_title }}</h2>
                 <div >
                     <h4>Language: {{ $movie->nationality }}</h4>
                     <h5>Vote: {{ $movie->vote }} </h5>
